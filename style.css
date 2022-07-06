@@ -48,5 +48,5 @@ a {
 }
 
 .nav-link:hover{
-    color: #1ae5f7;
+    border-bottom: 5px solid #497579;
 }
