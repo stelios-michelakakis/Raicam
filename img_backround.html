@@ -1,40 +1,42 @@
 <html>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
-    <body>
-        <div>
-          <!---------------------------Navbar------------------------------->
-            <nav class="navbar">
-                <a href="#" class="nav-logo">RAICAM</a>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Consortium</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Job Position Offers</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Contact</a>
-                    </li>
-                  </ul>
-            </nav>
-            <!--------------------Main (Scrollable) Area------------------------>
-            <div></div>
-            <div class="flex-container">
-              <div class="map">
-                <img src="Map with Components.svg" style="visibility: hidden;" />
-                <button>Test</button>
-              </div>
-              <div class="Map_info">
-                hello world
-              </div>
-             </div>  
-          </div>
-          <script>
-            AOS.init();
-          </script>
-    </body>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+
+<body>
+    <!---------------------------Navbar------------------------------->
+    <nav class="navbar">
+      <a href="#" class="nav-logo">RAICAM</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Consortium</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Job Position Offers</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!--------------------Main (Scrollable) Area------------------------>
+    <div class="main">
+      <div class="Home"></div>
+      <div class="flex-container">
+        <div class="map">
+          <img src="Map with Components.svg" style="visibility: hidden;" />
+        </div>
+        <div class="Map_info">
+          hello world
+        </div>
+      </div>
+      <div class="Job_Position"></div>
+      <div class="Contact"></div>
+    </div>
+  <script>
+    AOS.init();
+  </script>
+</body>
 </html>
