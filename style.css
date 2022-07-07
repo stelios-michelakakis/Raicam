@@ -7,6 +7,7 @@
 html {
     font-size: 62.5%;
     font-family: sans-serif;
+    background-color: #F2F2F2;
 }
 
 li {
@@ -18,11 +19,14 @@ a {
 }
 
 .navbar {
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #151617;
-    padding: 1rem 1.5rem;
+    background-color: #4D6471;
+    padding: 2rem 1.5rem;
 }
 
 .nav-logo {
@@ -48,5 +52,20 @@ a {
 }
 
 .nav-link:hover{
-    border-bottom: 5px solid #497579;
+    border-bottom: 5px solid #F2F2F2;
+}
+
+.flex-container {
+    padding-top: 4rem;
+    margin-top: 7rem;
+    display: flex;
+}
+
+.map {
+    background-image: url("Map with Components.svg");
+    padding-left: 5%;
+    height:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 65%;
 }
