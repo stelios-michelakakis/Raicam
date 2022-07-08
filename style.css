@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +7,8 @@
 }
 
 html {
+    font-family: 'Roboto';
     font-size: 62.5%;
-    font-family: sans-serif;
     background-color: #F2F2F2;
 }
 
@@ -16,6 +18,8 @@ li {
 
 a {
     text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 .navbar {
@@ -25,8 +29,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4D6471;
-    padding: 2rem 1.5rem;
+    background-color: #6B7A94;
+    margin-bottom: 10%;
+    z-index: 1;
 }
 
 .nav-logo {
@@ -47,12 +52,33 @@ a {
 
 .nav-link{
     font-size: 19px;
-
     color: white;
 }
 
 .nav-link:hover{
     border-bottom: 5px solid #F2F2F2;
+}
+
+.main{
+    display: flex;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+    align-self: flex-start;
+    color: #7998A9;
+    font-weight: lighter;
+    font-size: 50px;
+    padding-left: 10%;
+}
+
+.content {
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 5%;
+    padding-left: 10%;
 }
 
 .flex-container {
@@ -61,11 +87,13 @@ a {
     display: flex;
 }
 
+#map{
+    background-color:#DEDEDE;
+}
 .map {
-    background-image: url("Map with Components.svg");
     padding-left: 5%;
     height:100%;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 65%;
+    width: 100%;
 }
