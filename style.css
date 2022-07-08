@@ -24,7 +24,7 @@ a {
 
 .navbar {
     position: fixed;
-    top: 0; /* Position the navbar at the top of the page */
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ a {
 }
 
 .nav-logo {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
     color: white;
 }
@@ -88,7 +88,7 @@ a {
 }
 
 #map{
-    background-color:#DEDEDE;
+    background-color:#E7E7E7;
 }
 .map {
     padding-left: 5%;
