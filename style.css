@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400;1,500&display=swap');
 
 * {
     margin: 0;
@@ -30,7 +30,6 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: #6B7A94;
-    margin-bottom: 10%;
     z-index: 1;
 }
 
@@ -57,6 +56,20 @@ a {
 
 .nav-link:hover {
     border-bottom: 5px solid #F2F2F2;
+}
+
+.intro{
+padding-left: 10%;
+padding-right: 10%;
+   padding-top: 10%;
+   z-index: 1;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
 }
 
 .main {
@@ -91,12 +104,21 @@ a {
     background-color: #E7E7E7;
 }
 
+#consortium_sticky{
+    padding-left: 30%;
+    padding-bottom: 20px;
+}
+
 #map {
     background-image: url("Map with Components.svg");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center right;
     position: relative;
+}
+
+#contact{
+    background-color: #E7E7E7;
 }
 
 .map {
@@ -106,7 +128,11 @@ a {
 }
 
 .left_side {
-    padding-left: 8%;
+    width: 60%;
+}
+
+h4{
+    font-size: 40px;
 }
 
 #test{
@@ -121,5 +147,15 @@ a {
 }
 
 #info_container{
+    width: 100%;
+    font-size: 20px;
+    padding: 5%;
     display: none;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    color: #6c926f;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 17%;
 }
+

@@ -13,7 +13,7 @@ function getText(id) {
     var myRequest = new Request(id + '.txt');
     fetch(myRequest).then(function(response) {
       return response.text().then(function(text) {
-        info.innerHTML = text;
+        info.innerHTML =  "<h4>"+id+"</h4> <p>"+text+"</p>";
       });
     });
   }
