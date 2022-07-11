@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -50,20 +51,20 @@ a {
     margin-left: 3rem;
 }
 
-.nav-link{
+.nav-link {
     font-size: 19px;
     color: white;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     border-bottom: 5px solid #F2F2F2;
 }
 
-.main{
+.main {
     display: flex;
 }
 
-.sticky{
+.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 10%;
@@ -87,13 +88,21 @@ a {
     display: flex;
 }
 
-#map{
-    background-color:#E7E7E7;
+#consortium {
+    background-color: #E7E7E7;
 }
-.map {
-    padding-left: 5%;
-    height:100%;
-    background-size: contain;
+
+#map {
+    background-image: url("Map with Components.svg");
+    background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+}
+
+.map {
+    height: 100%;
     width: 100%;
+    visibility: hidden;
+    padding-right: 5%S;
 }
