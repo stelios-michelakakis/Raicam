@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -83,8 +82,8 @@ a {
 }
 
 .flex-container {
-    padding-top: 4rem;
-    margin-top: 7rem;
+    padding-top: 8rem;
+    margin-top: 5rem;
     display: flex;
 }
 
@@ -104,5 +103,23 @@ a {
     height: 100%;
     width: 100%;
     visibility: hidden;
-    padding-right: 5%S;
+}
+
+.left_side {
+    padding-left: 8%;
+}
+
+#test{
+    font-size: 1.6vw;
+    position: absolute; left: 23%; top: 36%;
+    width:7vw;
+    height: 5vh;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+#info_container{
+    display: none;
 }
