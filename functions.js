@@ -17,3 +17,15 @@ function getText(id) {
       });
     });
   }
+
+
+const home = document.getElementsByClassName("nav-logo");
+if(home){
+home.addEventListener('click', ()=>{
+  window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth'
+  });
+})
+}

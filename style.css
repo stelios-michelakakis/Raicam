@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +7,26 @@
 
 html {
     font-family: 'Roboto';
+    font-weight: 300;
     font-size: 62.5%;
     background-color: #F2F2F2;
+    overflow-x: hidden; 
 }
 
 li {
     list-style: none;
+}
+
+.logo_holder{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small_logo{
+    object-fit: cover;
+    height: 100px;
 }
 
 a {
@@ -34,15 +47,17 @@ a {
 }
 
 .nav-logo {
+    font-family: 'Roboto';
     font-size: 28px;
-    font-weight: 500;
-    color: white;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }
 
 .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 5%;
 }
 
 .nav-item {
@@ -55,25 +70,26 @@ a {
 }
 
 .nav-link:hover {
-    border-bottom: 5px solid #F2F2F2;
+    border-bottom: 8px solid #F2F2F2;
 }
 
-.intro{
-padding-left: 10%;
-padding-right: 10%;
-   padding-top: 10%;
-   z-index: 1;
+.intro {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    z-index: 1;
 }
 
-h1{
+h1 {
     font-size: 30px;
     font-weight: 400;
     font-style: italic;
     text-align: justify;
+    color: #555555;
 }
 
 .main {
-    display: flex;
+    width: 100vw;
 }
 
 .sticky {
@@ -90,7 +106,7 @@ h1{
 .content {
     text-align: justify;
     font-size: 20px;
-    padding-right: 5%;
+    padding-right: 10%;
     padding-left: 10%;
 }
 
@@ -104,7 +120,7 @@ h1{
     background-color: #E7E7E7;
 }
 
-#consortium_sticky{
+#consortium_sticky {
     padding-left: 30%;
     padding-bottom: 20px;
 }
@@ -117,7 +133,7 @@ h1{
     position: relative;
 }
 
-#contact{
+#contact {
     background-color: #E7E7E7;
 }
 
@@ -131,27 +147,29 @@ h1{
     width: 60%;
 }
 
-h4{
+h4 {
     font-size: 40px;
 }
 
-#test{
+#test {
     font-size: 1.6vw;
-    position: absolute; left: 23%; top: 36%;
-    width:7vw;
+    position: absolute;
+    left: 23%;
+    top: 36%;
+    width: 7vw;
     height: 5vh;
     cursor: pointer;
     background: transparent;
     border: none !important;
-    font-size:0;
+    font-size: 0;
 }
 
-#info_container{
+#info_container {
     width: 100%;
     font-size: 20px;
     padding: 5%;
     display: none;
-    border-radius: 10px;
+    border-radius: 0px 20px 20px 0px;
     background-color: #E0E0E0;
     color: #6c926f;
     position: -webkit-sticky;
@@ -159,3 +177,35 @@ h4{
     top: 17%;
 }
 
+/*************CONTACT FORM************/
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    padding-left: 10%;
+    border-radius: 5px;
+    padding-bottom: 10%;
+}
