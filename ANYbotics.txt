@@ -1,0 +1,5 @@
+The ANYbotics team has been building quadrupedal robots since 2009. Each year, the robot prototypes gained in maturity, autonomy, and reliability to move from a research project to a fully functioning demonstrator. With the first commercial requests at hand, the team founded ANYbotics to develop legged robots for real-world applications.
+
+ANYbotics was founded in 2016 as a spin-off from ETH Zurich with the goal to commercialize the technology behind the quadrupedal robot ANYmal. The founding team consisted of Samuel Bachmann, Remo Diethelm, ETH Zurich, Péter Fankhauser, Hanspeter Fässler, Christian Gehring, Marco Hutter, Andreas Lauber, and Roland Siegwart.
+
+Starting as a Wyss Zurich project, the team quickly expanded and recorded first sales in 2017. In a milestone project, a first offshore deployment of ANYmal was accomplished in 2018. In 2019, ANYbotics moved to their new offices in Zurich and announced their new ANYmal C robot.

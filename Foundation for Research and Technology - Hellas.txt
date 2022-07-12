@@ -3,3 +3,5 @@ The Foundation for Research and Technology - Hellas (FORTH) was founded in 1983.
 FORTH reports to the General Secretariat for Research and Innovation of the Ministry of Development and Investments.
 
 FORTH conducts specialized scientific research in strategic high-added value sectors, focusing on interdisciplinary research and development (R&D) activities in areas of major scientific, societal and economic interest, such as: Lasers and Photonics, Microelectronics, Advanced Materials / Nanotechnology, Molecular Biology and Genetics, Biotechnology, Computer Science, Bioinformatics, Precision Medicine, Systems Biology, Robotics, Telecommunications, Applied and Computational Mathematics, Chemical Engineering Sciences, Energy, Environment, Social Sciences & Humanities, Astrophysics and Astronomy.
+
+FORTH comprises nine Research Institutes. Its headquarters and central administration are based in Heraklion, Crete.

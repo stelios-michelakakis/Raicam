@@ -78,6 +78,18 @@ a {
     padding-right: 10%;
     padding-top: 10%;
     z-index: 1;
+    display: flex;
+    background-color: #E7E7E7;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.Raicam_logo{
+    text-align: center;
+}
+
+.raicam_image{
+    padding-bottom: 7%;
 }
 
 h1 {
@@ -147,26 +159,127 @@ h1 {
     width: 60%;
 }
 
-h4 {
-    font-size: 40px;
-}
-
-#test {
+[id='Universidad De Seville']
+{
     font-size: 1.6vw;
     position: absolute;
-    left: 23%;
-    top: 36%;
-    width: 7vw;
-    height: 5vh;
+    left: 41.2%;
+    top: 84.8%;
+    width: 10.1%;
+    height: 4.7%;
     cursor: pointer;
     background: transparent;
     border: none !important;
     font-size: 0;
 }
 
+[id='Karlsruhe Institute of Technology']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 63.7%;
+    top: 43.3%;
+    width: 11.1%;
+    height: 6.7%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+
+[id='Technical University of Munich']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 67.7%;
+    top: 53.5%;
+    width: 11.1%;
+    height: 6%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+
+[id='Tampere University']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 72.7%;
+    top: 1.9%;
+    width: 11.1%;
+    height: 6%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+
+[id='University of Turku']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 74.9%;
+    top: 11.9%;
+    width: 11.1%;
+    height: 6%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+[id='Foundation for Research and Technology - Hellas']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 87.9%;
+    top: 91.9%;
+    width: 11.1%;
+    height: 8%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+
+
+[id='Istituto Italiano Di Technologia']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 58%;
+    top: 72.7%;
+    width: 9.1%;
+    height: 4.7%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+
+[id='École nationale supérieure de techniques avancées Paris']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 30.4%;
+    top: 57.7%;
+    width: 14.5%;
+    height: 7.3%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+
+
+h4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 #info_container {
     width: 100%;
-    font-size: 20px;
+    font-size: 1vw;
     padding: 5%;
     display: none;
     border-radius: 0px 20px 20px 0px;
@@ -175,6 +288,8 @@ h4 {
     position: -webkit-sticky;
     position: sticky;
     top: 17%;
+    text-align: justify;
+    overflow:auto;
 }
 
 /*************CONTACT FORM************/
@@ -201,7 +316,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #04aa6dda;
 }
 
 .container {
