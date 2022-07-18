@@ -8,9 +8,21 @@
 html {
     font-family: 'Roboto';
     font-weight: 300;
-    font-size: 62.5%;
     background-color: #F2F2F2;
     overflow-x: hidden; 
+}
+
+body{
+        overflow-x: hidden;
+}
+
+img{
+image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
 }
 
 li {
@@ -22,7 +34,7 @@ li {
 .small_logo{
     padding-top: 20%;
     object-fit: cover;
-    height:200px;
+    height:50%;
 }
 
 a {
@@ -48,7 +60,10 @@ a {
 }
 
 .nav_img{
-    height: 60px;
+    width: 100%;
+    height: 6vh;
+    overflow: hidden;
+    margin-top: 0;
 }
 
 .nav-logo {
@@ -86,6 +101,7 @@ a {
     z-index: 1;
     background-color: #E7E7E7;
     padding-bottom: 10%;
+    text-align: center;
 }
 
 .Raicam_logo{
@@ -98,10 +114,42 @@ a {
     padding-bottom: 3%;
 }
 
+#bullets {
+    padding-top: 25%;
+    max-width: 100%;
+    max-height:100%;
+    display: inline-block; /* Instead of display: block; */
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-bottom: 25%;
+}
+
 h3 {
     font-size: 20px;
 }
 
+#participants_txt{
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #606060;
+   line-height: 50px;
+    border-bottom: 8px solid #66958A;
+}
+
+.participants_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.participants_img > img {
+    margin: 0 15px;
+    flex: 0 0 auto;
+    object-fit: cover;
+    height: 70%;
+    padding-bottom: 0%;
+}
 
 h1 {
     font-size: 40px;
@@ -140,6 +188,7 @@ h1 {
 }
 
 #consortium {
+    width: 100%;
     background-color: #E7E7E7;
 }
 
@@ -149,10 +198,10 @@ h1 {
 }
 
 #map {
-    background-image: url("Map with Components.svg");
+    background-image: url("images/Map\ With\ Components.png");
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: right;
     position: relative;
 }
 
@@ -161,20 +210,19 @@ h1 {
 }
 
 .map {
-    height: 100%;
     width: 100%;
     visibility: hidden;
 }
 
 .left_side {
-    width: 60%;
+    width: 100%;
 }
 
 [id='Universidad De Seville']
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 41.2%;
+    left: 38%;
     top: 84.8%;
     width: 10.1%;
     height: 4.7%;
@@ -188,7 +236,7 @@ h1 {
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 63.7%;
+    left: 61.7%;
     top: 43.3%;
     width: 11.1%;
     height: 6.7%;
@@ -202,7 +250,7 @@ h1 {
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 67.7%;
+    left: 65.7%;
     top: 53.5%;
     width: 11.1%;
     height: 6%;
@@ -216,7 +264,7 @@ h1 {
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 72.7%;
+    left: 70.7%;
     top: 1.9%;
     width: 11.1%;
     height: 6%;
@@ -230,7 +278,7 @@ h1 {
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 74.9%;
+    left: 72.9%;
     top: 11.9%;
     width: 11.1%;
     height: 6%;
@@ -243,10 +291,36 @@ h1 {
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 87.9%;
+    left: 85.9%;
     top: 91.9%;
     width: 11.1%;
     height: 8%;
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+[id='The University of West of England']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 23%;
+    top: 40.5%;
+    width: 11.1%;
+    height: 6%;
+    cursor: pointer;
+   background: transparent;
+    border: none !important;
+    font-size: 0;
+}
+[id='The University of Manchester']
+{
+    font-size: 1.6vw;
+    position: absolute;
+    left: 23%;
+    top: 35.5%;
+    width: 11.1%;
+    height: 6%;
     cursor: pointer;
     background: transparent;
     border: none !important;
@@ -258,7 +332,7 @@ h1 {
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 58%;
+    left: 56%;
     top: 72.7%;
     width: 9.1%;
     height: 4.7%;
@@ -272,7 +346,7 @@ h1 {
 {
     font-size: 1.6vw;
     position: absolute;
-    left: 30.4%;
+    left: 28.4%;
     top: 57.7%;
     width: 14.5%;
     height: 7.3%;
@@ -288,8 +362,9 @@ h4{
     padding-bottom: 5%;
 }
 
+
 #info_container {
-    width: 100%;
+    width: 400px;
     font-size: 1vw;
     padding: 5%;
     display: none;
@@ -301,6 +376,18 @@ h4{
     top: 17%;
     text-align: justify;
     overflow:auto;
+}
+
+.position_component{
+    display: flex;
+    padding: 2%;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+.position_component > img {
+    padding-right: 5%;
+    height: 50px;
 }
 
 /*************CONTACT FORM************/
@@ -327,7 +414,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #04aa6dda;
+    background-color: #0f8b5eda;
 }
 
 .container {

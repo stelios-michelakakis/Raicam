@@ -5,11 +5,11 @@
 <body>
   <!---------------------------Navbar------------------------------->
   <nav class="navbar">
-    <div class="nav_left"> 
-      <img src="EU flag.jpg" class="nav_img" alt="">
+    <div class="nav_left">
+      <img src="Logos/EU flag.jpg" class="nav_img" alt="">
       <a href="#" class="nav-logo">RAICAM</a>
     </div>
-    
+
     <ul class="nav-menu">
       <li class="nav-item">
         <a href="#about" class="nav-link">About</a>
@@ -28,117 +28,139 @@
   <!--------------------Main (Scrollable) Area------------------------>
   <div class="intro">
     <div class="Raicam_logo">
-      <img class="raicam_image" src="Raicam_logo.png" alt="">
+      <img class="raicam_image" src="Logos/Raicam_logo.png" alt="">
       <h3>Robotics and Artificial Intelligence for Critical Asset Monitoring</h3>
-      <img src="msca.png" class="small_logo" alt="">
-
+    </div>
+    <img src="images/Bullet_points.png" alt="" id="bullets">
+    <div>
+      <h3 id="participants_txt">CONSORTIUM MEMBERS</h3>
+      <div class="participants_img">
+        <img src="Logos/Frame 17.png" alt="">
+        <img src="Logos/Frame 18.png" alt="">
+        <img src="Logos/Frame 19.png" alt="">
+        <img src="Logos/Frame 20.png" alt="">
+      </div>
+      <div class="participants_img">
+        <img src="Logos/Frame 21.png" alt="">
+        <img src="Logos/Frame 22.png" alt="">
+        <img src="Logos/Frame 23.png" alt="">
+        <img src="Logos/Frame 24.png" alt="">
+      </div>
     </div>
   </div>
-  <div class="flex-container">
-    <!-----------------------Vertical Navbar----------------------------->
-    <div class="main">
-      <div class="flex-container" id="about">
-        <h3  data-aos="fade-right"  class="sticky">About</h3>
-        <div data-aos="fade-left" data-aos-offset="200" class="content">
-          <p> The use of robots for the inspection, maintenance, and repair (IMR) of critical infrastructure assets will
-            revolutionise many sectors1 such as energy generation2,3,4, energy transmission5, civil infrastructure6 and
-            utilities7. In fact, for some industries, the use of robotics is the only way to realise their full
-            potential.
-            For example, offshore wind energy generation is only feasible at the scales required if robotic platforms
-            are
-            used, from a safety, economic and skills shortage perspective.
-            <br>
-            <br>
-            Significant research has been conducted within the EU8 and the UK9 over the last 5 years in the field of
-            inspection robots and there have been numerous world-leading demonstrations of platforms conducting single
-            mission activities in representative environments. The vast majority of these activities have been remote
-            inspections, where the robot uses non-contact sensing (e.g., optical, thermal, radiological) coupled with
-            geometric scanning to build environmental maps and models.
-            <br>
-            <br>
-            To realise their full potential, however, robots will need to interact with the environment to perform
-            maintenance and repair activities. Environmental interaction is a highly complex activity requiring a
-            multi-disciplinary approach combining cognition (perception and reasoning), control, planning and, depending
-            on the level of autonomy, human interactions.
-            <br>
-            <br>
-            One of the most common, low-skilled activities undertaken by human technicians across a range of sectors is
-            sampling. Sampling is used to provide information that is representative of the environment from which a
-            sample is taken. The aim is to determine the properties (e.g., physical, chemical, biological, radiological)
-            of an environment with as much accuracy as possible. Sampling is critical to a number of
-            application-agnostic
-            practices such as contaminant testing, regulatory testing, environmental analysis, decommissioning, quality
-            assurance, and health & safety testing.
-            <br>
-            <br>
-            Whilst human technicians currently conduct sampling regimes, there is often significant uncertainty
-            associated
-            with repeatability, accuracy, and efficacy of the samples. A recent study has shown that automated systems
-            have the potential to outperform humans when collecting samples10. Humans are also limited as to where they
-            can take samples from, either due to environmental hazardous (radiation, chemicals, heat) or location
-            (confined spaces or heights).
-            <br>
-            <br>
-            Whilst human technicians currently conduct sampling regimes, there is often significant uncertainty
-            associated
-            with repeatability, accuracy, and efficacy of the samples. A recent study has shown that automated systems
-            have the potential to outperform humans when collecting samples10. Humans are also limited as to where they
-            can take samples from, either due to environmental hazardous (radiation, chemicals, heat) or location
-            (confined spaces or heights).
-          </p>
+  <!-----------------------Vertical Navbar----------------------------->
+  <div class="main">
+    <div class="flex-container" id="about">
+      <h3 data-aos="fade-right" class="sticky">About</h3>
+      <div data-aos="fade-left" data-aos-offset="200" class="content">
+        <p> The use of robots for the inspection, maintenance, and repair (IMR) of critical infrastructure assets will
+          revolutionise many sectors such as energy generation, energy transmission, civil infrastructure and
+          utilities. In fact, for some industries, the use of robotics is the only way to realise their full
+          potential.
+          For example, offshore wind energy generation is only feasible at the scales required if robotic platforms
+          are
+          used, from a safety, economic and skills shortage perspective.
+          <br>
+          <br>
+          Significant research has been conducted within the EU and the UK over the last 5 years in the field of
+          inspection robots and there have been numerous world-leading demonstrations of platforms conducting single
+          mission activities in representative environments. The vast majority of these activities have been remote
+          inspections, where the robot uses non-contact sensing (e.g., optical, thermal, radiological) coupled with
+          geometric scanning to build environmental maps and models.
+          <br>
+          <br>
+          To realise their full potential, however, robots will need to interact with the environment to perform
+          maintenance and repair activities. Environmental interaction is a highly complex activity requiring a
+          multi-disciplinary approach combining cognition (perception and reasoning), control, planning and, depending
+          on the level of autonomy, human interactions.
+          <br>
+          <br>
+          One of the most common, low-skilled activities undertaken by human technicians across a range of sectors is
+          sampling. Sampling is used to provide information that is representative of the environment from which a
+          sample is taken. The aim is to determine the properties (e.g., physical, chemical, biological, radiological)
+          of an environment with as much accuracy as possible. Sampling is critical to a number of
+          application-agnostic
+          practices such as contaminant testing, regulatory testing, environmental analysis, decommissioning, quality
+          assurance, and health & safety testing.
+          <br>
+          <br>
+          Whilst human technicians currently conduct sampling regimes, there is often significant uncertainty
+          associated
+          with repeatability, accuracy, and efficacy of the samples. A recent study has shown that automated systems
+          have the potential to outperform humans when collecting samples. Humans are also limited as to where they
+          can take samples from, either due to environmental hazardous (radiation, chemicals, heat) or location
+          (confined spaces or heights).
+          <br>
+          <br>
+        </p>
+      </div>
+    </div>
+    <div class="flex-container" id="consortium">
+      <div data-aos="slide-right" data-aos-offset="200" class="left_side">
+        <h3 class="sticky" id="consortium_sticky">
+          Consortium
+        </h3>
+        <div id="info_container">
         </div>
       </div>
-      <div class="flex-container" id="consortium">
-        <div data-aos="slide-right" data-aos-offset="200" class="left_side">
-          <h3 class="sticky" id="consortium_sticky">
-            Consortium
-          </h3>
-          <div id="info_container">
-          </div>
-        </div>
 
-        <div data-aos="fade-right" data-aos-offset="200" class="content" id="map">
-          <button class="map_button" id="École nationale supérieure de techniques avancées Paris">TEST</button>
-          <button class="map_button" id="Universidad De Seville">TEST</button>
-          <button class="map_button" id="Istituto Italiano Di Technologia">TEST</button>
-          <button class="map_button" id="Karlsruhe Institute of Technology">TEST</button>
-          <button class="map_button" id="Technical University of Munich">TEST</button>
-          <button class="map_button" id="University of Turku">TEST</button>
-          <button class="map_button" id="Tampere University">TEST</button>
-          <button class="map_button" id="Foundation for Research and Technology - Hellas">TEST</button>
-          <img data-aos="slide-left" data-aos-offset="200" class="map" src="Map with Components.svg" />
+      <div data-aos="fade-right" data-aos-offset="200" class="content" id="map">
+        <button class="map_button" id="École nationale supérieure de techniques avancées Paris">TEST</button>
+        <button class="map_button" id="Universidad De Seville">TEST</button>
+        <button class="map_button" id="Istituto Italiano Di Technologia">TEST</button>
+        <button class="map_button" id="Karlsruhe Institute of Technology">TEST</button>
+        <button class="map_button" id="Technical University of Munich">TEST</button>
+        <button class="map_button" id="University of Turku">TEST</button>
+        <button class="map_button" id="Tampere University">TEST</button>
+        <button class="map_button" id="The University of Manchester">TEST</button>
+        <button class="map_button" id="The University of West of England">TEST</button>
+        <button class="map_button" id="Foundation for Research and Technology - Hellas">TEST</button>
+        <img data-aos="slide-left" data-aos-offset="200" class="map" src="images/Map With Components.png" />
+      </div>
+    </div>
+    <div class="flex-container" id="Job_Positions">
+      <h3 data-aos="slide-right" data-aos-offset="200" class="sticky">
+        Job Position Offers
+      </h3>
+      <div data-aos="fade-left" data-aos-offset="200" class="content">
+        <div class="position_component">
+          <img src="Logos/Raicam_logo.png" alt="">
+          <p> Each Consortium Member Offers One for one position for a full‐time (ESR) PhD Student</p>
         </div>
       </div>
-      <div class="flex-container" id="Job_Positions">
-        <h3 data-aos="slide-right" data-aos-offset="200" class="sticky">
-          Job Position Offers
-        </h3>
-        <div data-aos="fade-left" data-aos-offset="200" class="content">
-          
-          </p>
-        </div>
-      </div>
-      <div class="flex-container" id="contact">
-        <h3 class="sticky">
-          Contact
-        </h3>
-        <div class="container">
-          <form action="https://formsubmit.co/b3477c8fb06e8488d2fcad9c7c8346ab" method="POST">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="">
-        
-            <label for="email">Email address</label>
-            <input type="text" id="email" name="email" placeholder="">
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write your message here" style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-          </form>
-        </div>
+    </div>
+    <div class="flex-container" id="contact">
+      <h3 class="sticky">
+        Contact
+      </h3>
+      <div class="container">
+        <form action="https://formsubmit.co/b3477c8fb06e8488d2fcad9c7c8346ab" method="POST">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="">
+
+          <label for="email">Email address</label>
+          <input type="text" id="email" name="email" placeholder="">
+
+          <label for="institute">Institute of Preference:</label>
+          <select id="institute" name="institute">
+            <option value="École nationale supérieure de techniques avancées Paris">École nationale supérieure de techniques avancées Paris</option>
+            <option value="Universidad De Seville">Universidad De Seville</option>
+            <option value="Istituto Italiano Di Technologia">Istituto Italiano Di Technologia</option>
+            <option value="Karlsruhe Institute of Technology">Karlsruhe Institute of Technology</option>
+            <option value="Technical University of Munich">Technical University of Munich</option>
+            <option value="University of Turku">University of Turku</option>
+            <option value="Tampere University">Tampere University</option>
+            <option value="Foundation for Research and Technology - Hellas">Foundation for Research and Technology - Hellas</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write your message here" style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
       </div>
     </div>
   </div>
