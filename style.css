@@ -141,6 +141,24 @@ a {
     margin-top: max(7%, 90px);
 }
 
+#msca-link {
+    position: absolute;
+    left: 5%;
+    width: 28%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#msca-dn-link {
+    position: absolute;
+    left: 69%;
+    width: 29%;
+    height: 85%;
+    top: 5%;
+    padding: 0;
+    margin: 0;
+}
 
 h3 {
     font-size: 20px;
