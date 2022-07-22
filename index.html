@@ -2,12 +2,12 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
 
-<body>
+<body id="home">
   <!---------------------------Navbar------------------------------->
   <nav class="navbar">
     <div class="nav_left">
       <img src="Logos/EU flag.jpg" class="nav_img" alt="">
-      <a href="#" class="nav-logo">RAICAM</a>
+      <a href="#home" class="nav-logo">RAICAM</a>
     </div>
 
     <ul class="nav-menu">
@@ -15,7 +15,7 @@
         <a href="#about" class="nav-link">About</a>
       </li>
       <li class="nav-item">
-        <a href="#map" class="nav-link"> Consortium</a>
+        <a href="#consortium" class="nav-link" id="consortium_btn"> Consortium</a>
       </li>
       <li class="nav-item">
         <a href="#Job_Positions" class="nav-link">Job Position Offers</a>
@@ -25,11 +25,10 @@
       </li>
     </ul>
   </nav>
-  <!--------------------Main (Scrollable) Area------------------------>
+  <!--------------------INTRO------------------------>
   <div class="intro">
     <div class="Raicam_logo">
-      <img class="raicam_image" src="Logos/Raicam_logo.png" alt="">
-      <h3>Robotics and Artificial Intelligence for Critical Asset Monitoring</h3>
+      <img class="raicam_image" src="Logos/Raicam_logo_with_text.png" alt="">
     </div>
     <img src="images/Bullet_points.png" alt="" id="bullets">
     <div>
@@ -39,17 +38,21 @@
         <img src="Logos/Frame 18.png" alt="">
         <img src="Logos/Frame 19.png" alt="">
         <img src="Logos/Frame 20.png" alt="">
+        <img src="Logos/Frame 26.png" alt="">
       </div>
       <div class="participants_img">
         <img src="Logos/Frame 21.png" alt="">
         <img src="Logos/Frame 22.png" alt="">
         <img src="Logos/Frame 23.png" alt="">
         <img src="Logos/Frame 24.png" alt="">
+        <img src="Logos/Frame 27.png" alt="">
       </div>
     </div>
   </div>
-  <!-----------------------Vertical Navbar----------------------------->
+    
+  <!-----------------------MAIN CONTENT----------------------------->
   <div class="main">
+    <img src="images/marie_curie_banner.png" id="banner" alt="">
     <div class="flex-container" id="about">
       <h3 data-aos="fade-right" class="sticky">About</h3>
       <div data-aos="fade-left" data-aos-offset="200" class="content">
@@ -96,7 +99,7 @@
       </div>
     </div>
     <div class="flex-container" id="consortium">
-      <div data-aos="slide-right" data-aos-offset="200" class="left_side">
+      <div data-aos="fade-right" data-aos-offset="200" class="left_side">
         <h3 class="sticky" id="consortium_sticky">
           Consortium
         </h3>
@@ -125,7 +128,7 @@
       <div data-aos="fade-left" data-aos-offset="200" class="content">
         <div class="position_component">
           <img src="Logos/Raicam_logo.png" alt="">
-          <p> Each Consortium Member Offers One for one position for a full‐time (ESR) PhD Student</p>
+          <p> Each Consortium Member offers one position for a full-time (ESR) PhD Student</p>
         </div>
       </div>
     </div>
