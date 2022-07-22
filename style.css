@@ -101,7 +101,7 @@ a {
     justify-content: center;
     padding-left: 30%;
     padding-right: 30%;
-    padding-top: 10%;
+    padding-top: 5%;
     z-index: 1;
     background-color: #E7E7E7;
     padding-bottom: 10%;
@@ -135,6 +135,12 @@ a {
     height:auto;
     background-size:100%;
 }
+.horizontal-banner {
+    position: relative;
+    background-color: #E7E7E7;
+    margin-top: max(7%, 90px);
+}
+
 
 h3 {
     font-size: 20px;
