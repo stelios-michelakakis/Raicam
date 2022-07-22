@@ -119,7 +119,7 @@ a {
 }
 
 #bullets {
-    padding-top: 25%;
+    padding-top: 10%;
     max-width: 100%;
     max-height:100%;
     display: inline-block; /* Instead of display: block; */
