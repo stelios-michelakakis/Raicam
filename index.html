@@ -28,8 +28,8 @@
   <!--------------------BANNER------------------------>
   <div class="horizontal-banner">
     <img src="images/marie_curie_banner.png" id="banner" alt="">
-    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu" id="msca-link"></a>
-    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks" id="msca-dn-link"></a>
+    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu" id="msca-link" target="_blank"></a>
+    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks" id="msca-dn-link" target="_blank"></a>
   </div>
   <!--------------------INTRO------------------------>
   <div class="intro">
@@ -37,69 +37,46 @@
       <img class="raicam_image" src="Logos/Raicam_logo_with_text.png" alt="">
     </div>
     <img src="images/Bullet_points.png" alt="" id="bullets">
-    <div>
-      <h3 id="participants_txt">CONSORTIUM MEMBERS</h3>
-      <div class="participants_img">
-        <img src="Logos/Frame 17.png" alt="">
-        <img src="Logos/Frame 18.png" alt="">
-        <img src="Logos/Frame 19.png" alt="">
-        <img src="Logos/Frame 20.png" alt="">
-        <img src="Logos/Frame 26.png" alt="">
-      </div>
-      <div class="participants_img">
-        <img src="Logos/Frame 21.png" alt="">
-        <img src="Logos/Frame 22.png" alt="">
-        <img src="Logos/Frame 23.png" alt="">
-        <img src="Logos/Frame 24.png" alt="">
-        <img src="Logos/Frame 27.png" alt="">
-      </div>
+  </div>
+  <div class="intro_participants">
+    <h3 id="participants_txt">CONSORTIUM MEMBERS</h3>
+    <div class="participants_img">
+      <img src="Logos/FORTH.png" alt="">
+      <img src="Logos/TUM.png" alt="">
+      <img src="Logos/SEVILLA.png" alt="">
+      <img src="Logos/TAMPERE.png" alt="">
+      <img src="Logos/KIT.png" alt="">
+      <img src="Logos/TURKU.png" alt="">
+      <img src="Logos/IIT.png" alt="">
+      <img src="Logos/ENSTA.png" alt="">
+      <img src="Logos/UWE.png" alt="">
+      <img src="Logos/MANCHESTER.png" alt="">
     </div>
   </div>
-    
   <!-----------------------MAIN CONTENT----------------------------->
   <div class="main">
     <div class="flex-container" id="about">
       <h3 data-aos="fade-right" class="sticky">About</h3>
       <div data-aos="fade-left" data-aos-offset="200" class="content">
-        <p> The use of robots for the inspection, maintenance, and repair (IMR) of critical infrastructure assets will
-          revolutionise many sectors such as energy generation, energy transmission, civil infrastructure and
-          utilities. In fact, for some industries, the use of robotics is the only way to realise their full
-          potential.
-          For example, offshore wind energy generation is only feasible at the scales required if robotic platforms
-          are
-          used, from a safety, economic and skills shortage perspective.
+        <p> RAICAM aims to train a cohort of 10 PhD students to work on the next
+          generation of mobile robots for inspection and maintenance of industrial
+          facilities. RAICAM will develop a multi-domain, multi-agent robotic
+          sample retrieval system that will be able to obtain surface swabbing
+          samples of critical infrastructure buildings for chemical or biological
+          analysis.
           <br>
           <br>
-          Significant research has been conducted within the EU and the UK over the last 5 years in the field of
-          inspection robots and there have been numerous world-leading demonstrations of platforms conducting single
-          mission activities in representative environments. The vast majority of these activities have been remote
-          inspections, where the robot uses non-contact sensing (e.g., optical, thermal, radiological) coupled with
-          geometric scanning to build environmental maps and models.
-          <br>
-          <br>
-          To realise their full potential, however, robots will need to interact with the environment to perform
-          maintenance and repair activities. Environmental interaction is a highly complex activity requiring a
-          multi-disciplinary approach combining cognition (perception and reasoning), control, planning and, depending
-          on the level of autonomy, human interactions.
-          <br>
-          <br>
-          One of the most common, low-skilled activities undertaken by human technicians across a range of sectors is
-          sampling. Sampling is used to provide information that is representative of the environment from which a
-          sample is taken. The aim is to determine the properties (e.g., physical, chemical, biological, radiological)
-          of an environment with as much accuracy as possible. Sampling is critical to a number of
-          application-agnostic
-          practices such as contaminant testing, regulatory testing, environmental analysis, decommissioning, quality
-          assurance, and health & safety testing.
-          <br>
-          <br>
-          Whilst human technicians currently conduct sampling regimes, there is often significant uncertainty
-          associated
-          with repeatability, accuracy, and efficacy of the samples. A recent study has shown that automated systems
-          have the potential to outperform humans when collecting samples. Humans are also limited as to where they
-          can take samples from, either due to environmental hazardous (radiation, chemicals, heat) or location
-          (confined spaces or heights).
-          <br>
-          <br>
+          This is an exciting opportunity to do a PhD in Robotics and AI on an
+          important topic in a well-funded multi-disciplinary international
+          training network. We are looking for 10 excellent students to work
+          together as a multi-disciplinary cohort across 10 universities in
+          Europe. The partners have prepared an extensive training programme for
+          the students. Training will be delivered by all partners, so there is
+          ample opportunity to travel to partner sites, discuss interesting
+          research with like-minded peers, and boost your career by creating your
+          international network. There are also extensive secondment opportunities
+          with our wide range of industry partners. If you are interested in doing
+          your PhD with RAICAM, please get in touch.
         </p>
       </div>
     </div>
@@ -154,14 +131,16 @@
 
           <label for="institute">Institute of Preference:</label>
           <select id="institute" name="institute">
-            <option value="École nationale supérieure de techniques avancées Paris">École nationale supérieure de techniques avancées Paris</option>
-            <option value="Universidad De Seville">Universidad De Seville</option>
-            <option value="Istituto Italiano Di Technologia">Istituto Italiano Di Technologia</option>
-            <option value="Karlsruhe Institute of Technology">Karlsruhe Institute of Technology</option>
-            <option value="Technical University of Munich">Technical University of Munich</option>
-            <option value="University of Turku">University of Turku</option>
-            <option value="Tampere University">Tampere University</option>
             <option value="Foundation for Research and Technology - Hellas">Foundation for Research and Technology - Hellas</option>
+            <option value="Technical University of Munich">Technical University of Munich</option>
+            <option value="Universidad De Seville">Universidad De Seville</option>
+            <option value="Tampere University">Tampere University</option>
+            <option value="Karlsruhe Institute of Technology">Karlsruhe Institute of Technology</option>
+            <option value="University of Turku">University of Turku</option>
+            <option value="Istituto Italiano Di Technologia">Istituto Italiano Di Technologia</option>
+            <option value="École nationale supérieure de techniques avancées Paris">École nationale supérieure de techniques avancées Paris</option>
+            <option value="The University of West of England">The University of West of England</option>
+            <option value="The University of Manchester">The University of Manchester</option>
           </select>
 
           <label for="subject">Subject</label>
