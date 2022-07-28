@@ -264,8 +264,16 @@ h1 {
         text-align: justify;
         padding: 5%;
     }
-    .left_side{
+    #info_container{
         display: none;
+        text-align: center;
+    }
+    #consortium_sticky{
+        padding-top: 5%;
+padding-left: 5% !important
+    }
+    #consortium{
+        padding-top: 0%;
     }
     #map{
         background-size: auto 100%;
@@ -282,6 +290,9 @@ h1 {
         flex-direction: column;
         font-size: 16px;
     }
+    .position_component > img {
+       display: none;
+    }
     h3{
         font-size:  1rem;
     }
@@ -291,6 +302,9 @@ h1 {
     }
     body{
         overflow-x: hidden;
+    }
+    #consortium_sticky{
+        width: 100%;
     }
   }
 
