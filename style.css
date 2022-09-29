@@ -189,8 +189,7 @@ h3 {
 
 .participants_img>img {
     margin: 2% 2%;
-    width: 20vw;
-    max-width: 200px;
+    width: 15%;
     height: auto;
 }
 
@@ -248,6 +247,9 @@ h1 {
     .participants_img {
         width: 100%;
     }
+    .participants_img>img {
+        width: 30%;
+    }
 
     .intro {
         padding-left: 10%;
@@ -284,7 +286,6 @@ h1 {
         padding-top: 5rem;
         padding-bottom: 5%;
         display: inline !important;
-
     }
 
     #info_container {
@@ -316,12 +317,16 @@ h1 {
     }
 
     .position_component {
-        flex-direction: column;
-        font-size: 16px;
+        flex-direction: row;
+        font-size: 15px;
+        text-align: justify;
     }
 
-    .position_component>img {
-        display: none;
+    .position_head {
+        display: flex;
+        flex-direction: row;
+        padding: 10%;
+        color: black;
     }
 
     h3 {
@@ -367,6 +372,11 @@ h1 {
 
 #contact {
     background-color: #E7E7E7;
+}
+
+#training_img {
+    width: 100%;
+    height: auto;
 }
 
 .map {
@@ -532,19 +542,52 @@ h4 {
     overflow: auto;
 }
 
-.position_component {
-    font-size: 20px;
-    display: flex;
-    padding: 5%;
-    background-color: #D9D9D9;
-    border-radius: 15px;
-    align-items: center;
-    text-align: justify;
+#job_title{
+    text-align: left;
 }
 
-.position_component>img {
+.plus_icon{
+    text-align: right;
+    font-size: 40px;
+    color: #606060;
+}
+
+.position_component{
+    background-color: #D9D9D9;
+    grid-template-rows: auto;
+    margin-bottom: 2%;
+    }
+
+.position_head {
+    background-color: #D9D9D9;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    padding-left: 5%;
     padding-right: 5%;
-    width: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    border: none;
+}
+
+.position_head:hover {
+    background-color: #d0d0d0;
+}
+
+.position_description {
+    font-size: 20px;
+    background-color: #707fa4;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: max-height 0.2s ease-out;
+}
+
+.position_head>img {
+    width: 60%;
     height: auto;
 }
 
@@ -563,7 +606,10 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    background-color: #488971;
     color: white;
     padding: 12px 20px;
     border: none;
