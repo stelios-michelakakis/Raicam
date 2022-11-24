@@ -964,7 +964,7 @@
             <p style="font-weight:500;" >Application deadline: January 15th, 2023 </p>
           </div>
 
-        <form action="https://formsubmit.co/674dcf9a308aa87f3e346fc619b6b2fd  " method="POST"
+        <form action="https://formsubmit.co/674dcf9a308aa87f3e346fc619b6b2fd" method="POST"
           enctype="multipart/form-data">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="">
@@ -973,10 +973,10 @@
           <input type="text" id="lname" name="lastname" placeholder="">
 
           <label for="email">Email address</label>
-          <input type="text" id="email" name="email" placeholder="">
+          <input type="text"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" name="email" placeholder="">
 
           <label for="institute">Institute of Preference:</label>
-          <select id="institute1" name="institute 1:" required>
+          <select id="institute1" name="institute 1" required>
             <option disabled selected value> 1st choice (highest priority) </option>
             <option value="Foundation for Research and Technology - Hellas">Foundation for Research and Technology -
               Hellas</option>
@@ -992,7 +992,7 @@
             <option value="The University of Manchester">The University of Manchester</option>
           </select>
 
-          <select id="institute2" name="institute 2:" required>
+          <select id="institute2" name="institute 2" required>
             <option disabled selected value> 2nd choise </option>
             <option value="Foundation for Research and Technology - Hellas">Foundation for Research and Technology -
               Hellas</option>
@@ -1008,7 +1008,7 @@
             <option value="The University of Manchester">The University of Manchester</option>
           </select>
 
-          <select id="institute3" name="institute 3:" required>
+          <select id="institute3" name="institute 3" required>
             <option disabled selected value> 3rd choise </option>
             <option value="Foundation for Research and Technology - Hellas">Foundation for Research and Technology -
               Hellas</option>
@@ -1030,10 +1030,10 @@
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write your message here" style="height:200px"></textarea>
 
-          <label for="files">Upload Your CV and Supporting Documents:</label>
-          <input type="file" id="Files" name="attachment" accept="all" multiple="multiple" style="width: 100%;">
+          <label for="files">Upload a Single Compressed File (RAR, 7z, TAR, ZIP, ZIPX) Containing your CV and Supporting Documents:</label>
+          <input type="file" id="Files" name="attachment" accept=".zip,.rar,.7zip,.tar,.zipx" multiple="multiple" style="width: 100%;">
           <br><br>
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" id="submit">
         </form>
       </div>
       </div>
